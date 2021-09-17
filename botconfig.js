@@ -20,7 +20,7 @@ module.exports = {
    Lavalink: {
     id: "Main",
     host: "ult7.falix.gg",
-    port: 25773,
+    port: 27786,
     pass: "Votelessissexy1337", 
     secure: false, // Set this to true if you're self-hosting lavalink on replit.
   },
