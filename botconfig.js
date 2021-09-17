@@ -19,9 +19,9 @@ module.exports = {
   //Lavalink
    Lavalink: {
     id: "Main",
-    host: "endstone.mcworld.cc",
+    host: "ult7.falix.gg",
     port: 25773,
-    pass: "youshallnotpass", 
+    pass: "Votelessissexy1337", 
     secure: false, // Set this to true if you're self-hosting lavalink on replit.
   },
 
