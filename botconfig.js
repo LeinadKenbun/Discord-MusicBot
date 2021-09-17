@@ -22,7 +22,7 @@ module.exports = {
     host: "lavaganz.herokuapp.com",
     port: 443,
     pass: "youshallnotpass", 
-    secure: true, // Set this to true if you're self-hosting lavalink on replit.
+    secure: false, // Set this to true if you're self-hosting lavalink on replit.
   },
 
 
