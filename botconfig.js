@@ -8,7 +8,7 @@ module.exports = {
   ClientID: process.env.Discord_ClientID || "", //Discord Client ID
   ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
-  CallbackURL: "/api/callback", //Discord OAuth2 Callback URL
+  CallbackURL: "https://discord-musicbot-production-ede7.up.railway.app/api/callback", //Discord OAuth2 Callback URL
   "24/7": false, //If you want the bot to be stay in the vc 24/7
   CookieSecret: "Pikachu is cute", //A Secret like a password
   IconURL:
