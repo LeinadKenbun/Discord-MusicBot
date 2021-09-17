@@ -1,5 +1,5 @@
 module.exports = {
-  Admins: ["UserID", "UserID"], //Admins of the bot
+  Admins: ["406037745505533962"], //Admins of the bot
   ExpressServer: true,//If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
@@ -19,17 +19,17 @@ module.exports = {
   //Lavalink
    Lavalink: {
     id: "Main",
-    host: "lavaganz.herokuapp.com",
-    port: 443,
+    host: "endstone.mcworld.cc",
+    port: 25773,
     pass: "youshallnotpass", 
-    secure: true, // Set this to true if you're self-hosting lavalink on replit.
+    secure: false, // Set this to true if you're self-hosting lavalink on replit.
   },
 
 
   //Please go to https://developer.spotify.com/dashboard/
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || "", //Spotify Client ID
-    ClientSecret: process.env.Spotify_ClientSecret || "", //Spotify Client Secret
+    ClientID: process.env.Spotify_ClientID || "2db199f329b74b11916276df4e9924c1", //Spotify Client ID
+    ClientSecret: process.env.Spotify_ClientSecret || "9bb3b3ce060e4b1ebe44d5b91ba92c35", //Spotify Client Secret
   },
 };
 
