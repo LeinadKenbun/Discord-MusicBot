@@ -19,9 +19,9 @@ module.exports = {
   //Lavalink
    Lavalink: {
     id: "Main",
-    host: "lavalink-replit.ganzbot.repl.co",
+    host: "lavaganz.herokuapp.com",
     port: 443,
-    pass: "maybeiwasboring", 
+    pass: "youshallnotpass", 
     secure: true, // Set this to true if you're self-hosting lavalink on replit.
   },
 
