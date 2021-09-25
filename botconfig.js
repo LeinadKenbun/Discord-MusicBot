@@ -17,13 +17,13 @@ module.exports = {
   Permissions: 2205280576, //Bot Inviting Permissions
   Website: process.env.Website || "http://localhost", //Website where it was hosted at includes http or https || Use "0.0.0.0" if you using Heroku
 
-//Lavalink
+  //Lavalink
    Lavalink: {
     id: "Main",
     host: "obsidian.mcworld.cc",
     port: 26265,
-    pass: "LeinadKenbun",
-    secure: true// Set this to true if you're self-hosting lavalink on replit.
+    pass: "LeinadKenbun", 
+    secure: false, // Set this to true if you're self-hosting lavalink on replit.
   },
 
 
