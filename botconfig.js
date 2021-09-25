@@ -23,7 +23,7 @@ module.exports = {
     host: "obsidian.mcworld.cc",
     port: 26265,
     pass: "LeinadKenbun",
-    secure: false, // Set this to true if you're self-hosting lavalink on replit.
+    secure: true// Set this to true if you're self-hosting lavalink on replit.
   },
 
 
