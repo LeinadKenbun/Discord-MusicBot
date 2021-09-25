@@ -20,10 +20,10 @@ module.exports = {
 //Lavalink
    Lavalink: {
     id: "Main",
-    host: "flamemcs.ga",
-    port: 443,
-    pass: "lavameow2",
-    secure: true, // Set this to true if you're self-hosting lavalink on replit.
+    host: "obsidian.mcworld.cc",
+    port: 26265,
+    pass: "LeinadKenbun",
+    secure: false, // Set this to true if you're self-hosting lavalink on replit.
   },
 
 
