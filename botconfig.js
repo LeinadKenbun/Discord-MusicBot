@@ -21,9 +21,9 @@ module.exports = {
   //Lavalink
    Lavalink: {
     id: "LavaGanz",
-    host: "obsidian.mcworld.cc",
-    port: 26012,
-    pass: "LeinadKenbun", 
+    host: "connect.freelavalink.ga",
+    port: 26026,
+    pass: "freelavalink", 
     secure: false, // Set this to true if you're self-hosting lavalink on replit.
   },
 
