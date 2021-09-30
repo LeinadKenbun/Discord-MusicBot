@@ -19,11 +19,11 @@ module.exports = {
 
   //Lavalink
    Lavalink: {
-    id: "Main",
-    host: "obsidian.mcworld.cc",
-    port: 26265,
-    pass: "LeinadKenbun", 
-    secure: false, // Set this to true if you're self-hosting lavalink on replit.
+    id: "DisBotlist Lavalink",
+    host: "disbotlistlavalink.ml",
+    port: 443,
+    pass: "LAVA", 
+    secure: true, // Set this to true if you're self-hosting lavalink on replit.
   },
 
 
