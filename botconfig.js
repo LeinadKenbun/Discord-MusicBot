@@ -19,7 +19,7 @@ module.exports = {
 
   //Lavalink
    Lavalink: {
-    id: "LavaGanz",
+    id: "Main",
     host: "obsidian.mcworld.cc",
     port: 26265,
     pass: "LeinadKenbun", 
