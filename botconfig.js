@@ -21,10 +21,10 @@ module.exports = {
 //Lavalink
    Lavalink: {
     id: "Main",
-    host: "lavaganz.mcalias.com",
-    port: 26012,
-    pass: "LeinadKenbun", 
-    secure: false, // Set this to true if you're self-hosting lavalink on replit.
+    host: "DisBotlist Lavalink",
+    port: 443,
+    pass: "LAVA", 
+    secure: true, // Set this to true if you're self-hosting lavalink on replit.
   },
 
 
