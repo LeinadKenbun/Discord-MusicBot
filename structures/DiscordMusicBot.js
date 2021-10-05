@@ -137,6 +137,8 @@ class DiscordMusicBot extends Client {
           port: this.botconfig.Lavalink.port,
           password: this.botconfig.Lavalink.pass,
           secure: this.botconfig.Lavalink.secure,
+          retryDelay: this.botconfig.Lavalink.retryDelay,
+          retryAmount: this.botconfig.Lavalink.retryAmount,
         },
       ],
       send(id, payload) {
@@ -155,7 +157,7 @@ class DiscordMusicBot extends Client {
       .on("trackStart", async (player, track) => {
         this.SongsPlayed++;
         let TrackStartedEmbed = new MessageEmbed()
-          .setAuthor(`Now playing ♪`, this.botconfig.NpUrl)
+          .setAuthor(`Now playing ♪`, this.botconfig.IconURL)
           .setThumbnail(player.queue.current.displayThumbnail())
           .setDescription(`[${track.title}](${track.uri})`)
           .addField("Requested by", `${track.requester}`, true)
@@ -193,8 +195,8 @@ class DiscordMusicBot extends Client {
           if (!cmd.name || !cmd.description || !cmd.run)
             return this.log(
               "Unable to load Command: " +
-                file.split(".")[0] +
-                ", Reason: File doesn't had run/name/desciption"
+              file.split(".")[0] +
+              ", Reason: File doesn't had run/name/desciption"
             );
           this.commands.set(file.split(".")[0].toLowerCase(), cmd);
           this.log("Command Loaded: " + file.split(".")[0]);
@@ -248,7 +250,7 @@ class DiscordMusicBot extends Client {
 
   build() {
     this.login(this.botconfig.Token);
-    if(this.botconfig.ExpressServer){
+    if (this.botconfig.ExpressServer) {
       this.http.listen(process.env.PORT || this.botconfig.Port, () => this.log("Web Server has been started"));
     }
   }
